@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Applet</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Pop-up -->
+    <div class="popup">
+        <div class="popup-box">
+            <div class="content">
+                <header>
+                    <span>Add a new note</span>
+                    <i class="fa-solid fa-times"></i>
+                </header>
+                <form action="#">
+                    <div class="row title">
+                        <label for="title">Title</label>
+                        <input name="title" id="title" type="text" />
+                    </div>
+                    <div class="row description">
+                        <label for="description">Description</label>
+                        <textarea name="description" id="description"></textarea>
+                    </div>
+                    <button class="btn" type="button">Add Note</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="container">
+        <div class="add-box">
+            <div class="icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <p>Add a new note</p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
